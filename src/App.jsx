@@ -1,11 +1,15 @@
 import { Fragment } from "react"
+import HeadeerComponent from "./components/header-component"
+import TextAreaComponent from "./components/inner-components/TextAreaComponent"
+import TaskComponent from "./components/task-component"
 
 
 function App() {
 
   return (
     <Fragment>
-      <h1>To-Do App</h1>
+      <HeadeerComponent/>
+      <TaskComponent/>
     </Fragment>
   )
 }
